@@ -8,15 +8,22 @@
     tools:context=".MainActivity">
 
     <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slideViewPager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp">
 
     </androidx.viewpager.widget.ViewPager>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:id="@+id/dotsLayout"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_below="@+id/slideViewPager"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:padding="20dp">
 
     </LinearLayout>
 
