@@ -22,8 +22,39 @@
         android:layout_centerHorizontal="true"
         android:orientation="horizontal"
         android:padding="20dp">
-
     </LinearLayout>
+
+    <Button
+        android:id="@+id/prevBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slideViewPager"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:text="Prev"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slideViewPager"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Strat"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:visibility="invisible"
+        />
 
 
 </RelativeLayout>
